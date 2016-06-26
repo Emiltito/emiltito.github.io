@@ -36,6 +36,11 @@
     margin: 0px 30px 20px 30px;
 
 }
+  h2{
+	font-family: Arial;
+    font-size: 14px;
+    margin: 20px 0px 0px 50px;
+  }
 
   .line{
     width: 85%; 
