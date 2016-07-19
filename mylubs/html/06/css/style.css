@@ -1,0 +1,368 @@
+@font-face {
+    font-family: 'Lucida Sans Unicode';
+    src: url('../fonts/lucida_sans_unicode_regular-webfont.eot');
+    src: url('../fonts/lucida_sans_unicode_regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lucida_sans_unicode_regular-webfont.woff2') format('woff2'),
+         url('../fonts/lucida_sans_unicode_regular-webfont.woff') format('woff'),
+         url('../fonts/lucida_sans_unicode_regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+  background-color: #939393;
+}
+
+.wrapper {
+  position: relative;
+  width: 1000px;
+  margin: 0 auto;
+  background: #fff;
+  height: 100%;
+}
+
+header {
+  position: relative;
+  padding: 22px 6px 11px 6px;
+}
+
+
+.phone {
+  display: inline-block;
+}
+
+.ph {
+  width: 21px;
+  height: 21px;
+  border-radius: 100%;
+  background: #0f3b60;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.phone span {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  line-height: 26px;
+  color: #5e696d;
+  vertical-align: middle;
+}
+
+
+.authorization{
+  display: inline-block;
+  background: rgba(31,102,133,1);
+  background: -moz-linear-gradient(top, rgba(31,102,133,1) 0%, rgba(13,52,88,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(31,102,133,1)), color-stop(100%, rgba(13,52,88,1)));
+  background: -webkit-linear-gradient(top, rgba(31,102,133,1) 0%, rgba(13,52,88,1) 100%);
+  background: -o-linear-gradient(top, rgba(31,102,133,1) 0%, rgba(13,52,88,1) 100%);
+  background: -ms-linear-gradient(top, rgba(31,102,133,1) 0%, rgba(13,52,88,1) 100%);
+  background: linear-gradient(to bottom, rgba(31,102,133,1) 0%, rgba(13,52,88,1) 100%);
+  vertical-align: baseline;
+  border-radius: 5px;
+  margin-left: 13px;
+}
+
+.authorization img {
+  padding-left: 10px;
+  vertical-align: middle;
+}
+
+.authorization input[type=text], input[type=password] {
+  width: 108px;
+  font-size: 11px;
+  font-family: "Lucida Sans Unicode", Arial, sans-serif;
+  color: #97a2a6;
+}
+
+.authorization input[type=submit] {
+  color: #fff;
+  font-size: 11px;
+  font-family: "Lucida Sans Unicode", Arial, sans-serif;
+  background: transparent;
+  border: none;
+}
+
+.reg a{
+  color: #fff;
+  font-size: 11px;
+  font-family: "Lucida Sans Unicode", Arial, sans-serif;
+  border-left: 1px solid #fff;
+  text-decoration: none;
+  padding-left: 5px;
+}
+
+.forgot a{
+  color: #bfbfbf;
+  font-size: 12px;
+  font-family: "Lucida Sans Unicode", Arial, sans-serif;
+  line-height: 28px;
+  vertical-align: middle;
+  padding: 0px 10px;
+}
+
+.icons {
+  display: inline-block;
+  border: 1px solid #c1c8cb;
+  border-radius: 10px;
+  padding: 0px 5px;
+  margin-left: 5px;
+  vertical-align: middle;
+  line-height: 20px;
+}
+
+.menu {
+  background: #000;
+  height: 34px;
+  vertical-align: middle;
+
+
+}
+
+.menu li{
+  display: inline-block;
+
+}
+
+.menu a{
+  display: block;
+  font-size: 14px;
+  color: #b1bcc0;
+  font-family: "Lucida Sans Unicode", Arial, sans-serif;
+  line-height: 26px;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 5px 20px 20px;
+}
+
+.menu a:hover{
+  display: block;
+  font-size: 14px;
+  color: #fff;
+  font-family: "Lucida Sans Unicode", Arial, sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.container {
+  position: relative;
+  padding: 0px 46px;
+}
+
+.sidebar-left {
+  width: 192px;
+  float: left;
+  padding-bottom: 20000px;
+  margin-bottom: -20000px;
+}
+
+.center {
+  width: 526px;
+  float: left;
+/*  padding-bottom: 20000px;
+ margin-bottom: -20000px; */ 
+  position: relative;
+  background: rgba(228,231,232,1);
+  background: -moz-linear-gradient(top, rgba(228,231,232,1) 0%, rgba(147,167,176,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(228,231,232,1)), color-stop(100%, rgba(147,167,176,1)));
+  background: -webkit-linear-gradient(top, rgba(228,231,232,1) 0%, rgba(147,167,176,1) 100%);
+  background: -o-linear-gradient(top, rgba(228,231,232,1) 0%, rgba(147,167,176,1) 100%);
+  background: -ms-linear-gradient(top, rgba(228,231,232,1) 0%, rgba(147,167,176,1) 100%);
+  background: linear-gradient(to bottom, rgba(228,231,232,1) 0%, rgba(147,167,176,1) 100%);
+  border-radius: 5px;
+}
+
+.sidebar-right{
+  width: 190px;
+  float: right;
+  padding-bottom: 20000px;
+  margin-bottom: -20000px;
+}
+
+.left-head img {
+  width: 21px;
+  height: 21px;
+  border-radius: 100%;
+  background: #000;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.left-head {
+  border: 1px solid #8b979c;
+  border-radius: 10px;
+  margin: 10px 10px 10px 0px;
+}
+
+.left-head a{
+  font-size: 13px;
+  line-height: 26px;
+  color: #114165;
+  font-family: "Lucida Sans Unicode", Arial, sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.content {
+  position: relative;
+  overflow: hidden;
+  margin: 15px 0px;
+}
+
+.left-menu {
+  width: 150px;
+}
+
+.submenu1 {
+  width: 100%;
+  border: 1px solid #8b979c;
+  border-radius: 12px;
+}
+
+.circle {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  color: #fff;
+  border-radius: 100%;
+  border: 5px solid #114165;
+  vertical-align: middle;
+  margin: 2px 0px 0px 4px;
+}
+
+.submenu1 a {
+  font-size: 13px;
+  line-height: 26px;
+  color: #114165;
+  font-family: "Lucida Sans Unicode", Arial, sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  vertical-align: middle;
+}
+
+.left-menu ul{
+  text-align: right;
+  list-style: circle;
+}
+
+.left-menu li:before {
+  content: "\25cb";
+}
+
+.left-menu li a{
+  font-size: 13px;
+  line-height: 26px;
+  color: #465961;
+  font-family: "Lucida Sans Unicode", Arial, sans-serif;
+  text-decoration: none;
+
+}
+
+.product {
+  position: relative;
+  text-align: center;
+  margin: 16px 0px 32px 0px;
+}
+
+.product .title a{
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 13px;
+  color: #206988;
+  font-family: "Lucida Sans Unicode", Arial, sans-serif;
+  text-decoration: none;
+}
+
+.product .title a:hover{
+  font-size: 13px;
+  line-height: 13px;
+  color: #206988;
+  font-family: "Lucida Sans Unicode", Arial, sans-serif;
+  text-decoration: underline;
+}
+
+.product .desc{
+  font-size: 13px;
+  line-height: 13px;
+  color: #1f2528;
+  font-family: "Lucida Sans Unicode", Arial, sans-serif;
+  text-decoration: none;
+  margin-bottom: 2px;
+}
+
+.product .image {
+  width: 138px;
+  height: 127px;
+  background: #fff;
+  border-radius: 5px;
+}
+
+.number {
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  color: #114165; 
+  }
+
+  .letter {
+  font-size: 12px;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  color: #114165;
+}
+
+.row1, .row2, .row3 {
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 28px;
+}
+
+.row-center {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.image img{
+  vertical-align: baseline;
+  padding-top: 5px;
+}
+
+.image {
+  margin-bottom: 5px;
+}
+
+.right-head img {
+  width: 21px;
+  height: 21px;
+  border-radius: 100%;
+  background: #000;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.right-head {
+  border: 1px solid #8b979c;
+  border-radius: 10px;
+  margin: 10px 0px 10px 10px;
+}
+
+.right-head a{
+  font-size: 13px;
+  line-height: 26px;
+  color: #114165;
+  font-family: "Lucida Sans Unicode", Arial, sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.right-menu {
+  width: 150px;
+  position: relative;
+}
+
+.right-menu form {
+  margin-left: 15px;
+}
