@@ -4,46 +4,49 @@
 <head>
     <meta charset="UTF-8">
     <title>Table</title>
-    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-<table>
-    <tr>
-        <td colspan="2"></td>
-        <td colspan="2"></td>
-        <td colspan="2" class="yellow"></td>
-    </tr>
-    <tr>
-        <td></td>
-        <td colspan="3" rowspan="2" class="red"></td>
-        <td colspan="2" class="yellow"></td>
-    </tr>
-    <tr>
-        <td rowspan="2"></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td class="black"></td>
-        <td class="black"></td>
-        <td></td>
-        <td colspan="2"></td>
-    </tr>
-    <tr>
-        <td rowspan="3" class="yellow"></td>
-        <td class="black"></td>
-        <td class="black"></td>
-        <td></td>
-        <td colspan="2" rowspan="2" class="blue"></td>
-    </tr>
-    <tr>
-        <td colspan="2" rowspan="2"></td>
-        <td class="black"></td>
-    </tr>
-    <tr>
-        <td colspan="3"></td>
-    </tr>
-</table>
-</body>
+    <body>
+      <div class="container">
+        <table>
+          <tr>
+            <th colspan="2"></th>
+            <th colspan="3"></th>
+            <th class="yellow" colspan="2"></th>
+          </tr>
+          <tr>
+            <th rowspan="2"></th>
+            <th class="red" colspan="4" rowspan="4"></th>
+            <th class="yellow" colspan="2" rowspan="2"></th>
+          </tr>
+          <tr>
+          </tr>
+          <tr>
+            <th rowspan="3"></th>
+            <th rowspan="2"></th>
+            <th rowspan="2"></th>
+          </tr>
+          <tr>
+          </tr>
+          <tr>
+            <th class="black" colspan="2" rowspan="2"></th>
+            <th colspan="2"></th>
+            <th colspan="2"></th>
+          </tr>
+          <tr>
+            <th class="yellow" rowspan="3"></th>
+            <th colspan="2"></th>
+            <th class="blue" colspan="2" rowspan="2"></th>
+          </tr>
+          <tr class="down">
+            <th colspan="2" rowspan="2"></th>
+            <th class="black" colspan="2">4</th>
+          </tr>
+          <tr class="down">
+            <th colspan="4"></th>
+          </tr>
+        </table>
+      </div>
+    </body>
 </html>
