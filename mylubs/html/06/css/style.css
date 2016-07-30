@@ -552,7 +552,7 @@ submenu4 .circle {
 }
 
 .product .goodyear > p {
-  letter-spacing: 1.1px;
+ /* letter-spacing: 1.1px;*/
 }
 
 .product .goodyear:nth-child(7) {
@@ -566,7 +566,7 @@ submenu4 .circle {
 
 .product .nokian > p {
   padding-left: 2px;
-  letter-spacing: 1.2px;
+  /*letter-spacing: 1.2px;*/
 }
 
 .product .nokian h1 a {
@@ -582,11 +582,6 @@ submenu4 .circle {
   margin-left: 30px;
 }
 
-.product .henkook > p {
-  letter-spacing: 1.6px;
-}
-
-
 .product .henkook h1 a {
   padding-left: 4px;
 }
@@ -598,8 +593,9 @@ submenu4 .circle {
 
 .product section p {
   font-size: 12px;
+  font-family: "Lucida Sans Unicode", Arial, sans-serif;
   line-height: 16px;
-  letter-spacing: 0.5px;
+  /*letter-spacing: 0.5px;*/
 }
 
 .product h1 {
