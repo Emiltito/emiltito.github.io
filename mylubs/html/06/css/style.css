@@ -31,6 +31,7 @@ header {
 
 .phone {
   display: inline-block;
+  float: left;
 }
 
 .ph {
@@ -40,7 +41,7 @@ header {
   background: #0f3b60;
   text-align: center;
   vertical-align: middle;
-  margin-top: 2px;
+  margin-top: 5px;
 }
 
 .phone p {
@@ -51,19 +52,24 @@ header {
   color: #5e696d;
   vertical-align: top;
   margin-right: 4px;
-  margin-top: 1px;
-  letter-spacing: 0.3px;
+  margin-top: 2px;
+  letter-spacing: 0.4px;
 }
 
 
 .authorization{
+  height: 27px;
+  width: 496px;
+  box-sizing: border-box;
   display: inline-block;
   background: rgba(31,102,133,1);
   background: linear-gradient(to bottom, rgba(31,102,133,1) 0%, rgba(13,52,88,1) 100%);
   vertical-align: middle;
   border-radius: 5px;
-  margin-left: 9px;
+  margin-left: 10px;
   box-shadow: 3px 3px 5px #b4b4b4;
+  float: left;
+  margin-bottom: 11px;
 }
 
 .authorization img {
@@ -72,22 +78,25 @@ header {
 }
 
 .authorization input[type=text] {
-    width: 105px;
-    font-size: 10px;
-    line-height: 15px;
-    font-family: "Lucida Sans Unicode", Arial, sans-serif;
-    color: #97a2a6;
-    border-radius: 1px;
-    vertical-align: middle;
-    margin-left: -2px;
-    padding: 0px 2px 0px 4px;
-    margin-top: -1px;
+  width: 115px;
+  font-size: 10px;
+  height: 17px;
+  line-height: 17px;
+  font-family: "Lucida Sans Unicode", Arial, sans-serif;
+  color: #97a2a6;
+  border-radius: 1px;
+  vertical-align: middle;
+  margin-left: -2px;
+  padding: 2px 2px 0px 5px;
+  margin-top: -3px;
+  box-sizing: border-box;
 }
 
 .authorization input[type=password] {
-  width: 103px;
+  width: 115px;
+  height: 17px;
   font-size: 10px;
-  line-height: 15px;
+  line-height: 17px;
   font-family: "Lucida Sans Unicode", Arial, sans-serif;
   color: #97a2a6;
   padding-right: 3px;
@@ -95,25 +104,36 @@ header {
   border-radius: 1px;
   vertical-align: middle;
   margin-left: 3px;
-  padding: 0px 3px 0px 5px;
-  margin-top: -1px;
+  padding: 2px 3px 0px 5px;
+  margin-top: -3px;
+  box-sizing: border-box;
 }
 
-.authorization input[type=submit] {
-  color: #fff;
-  font-size: 11px;
-  line-height: 12px;
-  font-family: "Lucida Sans Unicode", Arial, sans-serif;
+.entr {
   background: transparent;
   border: none;
-  vertical-align: middle;
-  letter-spacing: -0.4px;
-  padding: 1px 2px 3px 4px;
+  border-right: 1px solid #fff;
+  color: #fff;
+  font-size: 12px;
+  width: 32px;
+  padding: 0;
+  padding-right: 2px;
+  height: 14px;
+  margin-left: 2px;
 }
 
-.authorization input:placeholder  {
-  margin-left: 2px;
-  padding-left: 0px;
+.registr {
+  padding: 0;
+  background: transparent;
+  border: none;
+  color: #fff;
+  font-size: 12px;
+  width: 74px;
+  height: 14px;
+  margin-top: 2px;
+  margin-right: -5px;
+  margin-left: -2px;
+  letter-spacing: -0.3px;
 }
 
 .reg a{
@@ -153,8 +173,8 @@ header {
   border: 1px solid #c1c8cb;
   border-radius: 10px;
   padding: 0px 6px 3px 6px;
-  margin-left: 13px;
-  margin-top: 2px;
+  margin-left: 15px;
+  margin-top: 1px;
   vertical-align: top;
   line-height: 17px;
 }
@@ -170,7 +190,7 @@ header {
   border: 1px solid #2c345a;
   border-radius: 3px;
   box-shadow: 3px 3px 10px 0px rgba(0,0,0,0.75);
-  margin-top: 3px;
+  margin-top: 2px;
   margin-bottom: 8px;
   margin-left: -2px;
 }
@@ -183,6 +203,7 @@ nav {
   height: 34px;
   margin-left: 131px;
   padding: 0px 2px;
+  margin-top: -2px;
 }
 
 
@@ -195,7 +216,7 @@ nav {
  margin-right: 5px;
 } 
 
- .menu li:last-child {
+.menu li:last-child {
   margin-left: -5px;
 } 
  
@@ -227,7 +248,7 @@ nav {
   position: relative;
   display: inline-block;
   margin-left: 57px;
-  margin-top: 6px;
+  margin-top: 4px;
   height: 34px;
 }
 
@@ -235,6 +256,7 @@ nav {
   display: inline-block;
   vertical-align: middle;
   margin-right: 2px;
+  margin-top: 1px;
 }
 
 .basket span {
@@ -281,7 +303,7 @@ nav {
   float: left;
   padding-bottom: 20000px;
   margin-bottom: -20000px;
-  margin-top: -5px;
+  margin-top: -4px;
 
 }
 
@@ -319,7 +341,7 @@ nav {
 .left-head {
   border: 1px solid #8b979c;
   border-radius: 20px;
-  margin: 10px 12px 13px -2px;
+  margin: 7px 12px 13px -2px;
   box-shadow: 2px 2px 5px #999999;
 }
 
@@ -346,7 +368,8 @@ nav {
   width: 99%;
   border: 1px solid #8b979c;
   border-radius: 12px;
-  margin-bottom: -1px;
+  margin-bottom: -2px;
+  margin-top: -2px;
 }
 
 .submenu2 {
@@ -354,21 +377,22 @@ nav {
   border: 1px solid #8b979c;
   border-radius: 20px;
   margin-top: -2px;
-  margin-bottom: -1px;
+  margin-bottom: -3px;
 }
 
 .submenu3 {
   width: 99%;
   border: 1px solid #8b979c;
   border-radius: 20px;
-  margin-top: -3px;
+  margin-top: -4px;
+  margin-bottom: -2px;
 }
 
 .submenu4 {
   width: 100%;
   border: 1px solid #8b979c;
   border-radius: 12px;
-  margin: 13px 0px 0px 6px;
+  margin: 12px 0px -1px 6px;
 }
 
 submenu4 .circle {
@@ -383,7 +407,7 @@ submenu4 .circle {
   width: 100%;
   border: 1px solid #8b979c;
   border-radius: 12px;
-  margin: 9px 0px 0px 6px;
+  margin: 9px 0px -2px 6px;
 }
 
 .submenu5 .circle {
@@ -446,7 +470,7 @@ submenu4 .circle {
 .right-head {
   border: 1px solid #8b979c;
   border-radius: 12px;
-  margin: 10px 2px 10px 7px;
+  margin: 8px 2px 10px 7px;
   box-shadow: 2px 2px 5px #999999;
 }
 
@@ -458,7 +482,7 @@ submenu4 .circle {
   float: left;
   margin-top: 1px;
   margin-left: 3px;
-  margin-right: 5px;
+  margin-right: 6px;
 }
 
 .right-head p {
@@ -549,24 +573,26 @@ submenu4 .circle {
 
 .product .goodyear {
   margin-left: 23px;
+  margin-top: -2px;
 }
 
 .product .goodyear > p {
- /* letter-spacing: 1.1px;*/
+  letter-spacing: 0.2px;
 }
 
 .product .goodyear:nth-child(7) {
-  margin-top: 1px;
   margin-bottom: 30px;
+  margin-top: -1px;
 }
 
 .product .nokian {
   margin-left: 30px;
+  margin-top: -2px;
 }
 
 .product .nokian > p {
   padding-left: 2px;
-  /*letter-spacing: 1.2px;*/
+  letter-spacing: 0.2px;
 }
 
 .product .nokian h1 a {
@@ -574,20 +600,24 @@ submenu4 .circle {
 }
 
 .product .nokian:nth-child(8) {
-  margin-top: 3px;
   margin-bottom: 22px;
 }
 
 .product .henkook {
   margin-left: 30px;
+  margin-top: -1px;
 }
+
+.product .henkook > p {
+  letter-spacing: 0.5px;
+}
+
 
 .product .henkook h1 a {
   padding-left: 4px;
 }
 
 .product .henkook:nth-child(9) {
-  margin-top: 3px;
   margin-bottom: 22px;
 }
 
@@ -630,7 +660,7 @@ submenu4 .circle {
 }
 
 .price {
-  margin-top: 3px;
+  margin-top: 5px;
 }
 
 .product article {
@@ -655,7 +685,7 @@ submenu4 .circle {
 
 .partners {
   clear: both;
-  margin: -14px 0px 24px 116px;
+  margin: -16px 0px 24px 116px;
 }
 
 .bridgestone {
